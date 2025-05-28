@@ -4,7 +4,7 @@
 const { MongoClient } = require('mongodb');
 
 // Connection URI (replace with your MongoDB connection string if using Atlas)
-const uri = 'mongodb://localhost:27017';
+const uri = 'mongodb://127.0.0.1:27017/';
 
 // Database and collection names
 const dbName = 'plp_bookstore';
@@ -46,7 +46,7 @@ const books = [
     title: 'Brave New World',
     author: 'Aldous Huxley',
     genre: 'Dystopian',
-    published_year: 1932,
+    published_year: 1932, 
     price: 11.50,
     in_stock: false,
     pages: 311,
